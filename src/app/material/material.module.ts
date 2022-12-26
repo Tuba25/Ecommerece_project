@@ -5,6 +5,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatTableModule} from '@angular/material/table';
 import {MatTreeModule} from '@angular/material/tree';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatCardModule} from '@angular/material/card';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 const MaterialComponents=[
   MatButtonModule,
@@ -12,7 +14,9 @@ const MaterialComponents=[
   MatIconModule,
   MatTableModule,
   MatTreeModule,
-  MatPaginatorModule
+  MatPaginatorModule,
+  MatCardModule,
+  MatFormFieldModule
 ];
 
 @NgModule({

@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { HeaderComponent } from './header/header.component';
 import { ProductComponent } from './product/product.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MyCartComponent } from './my-cart/my-cart.component';
 
 
 @NgModule({
@@ -14,6 +16,8 @@ import { ProductComponent } from './product/product.component';
     AppComponent,
     HeaderComponent,
     ProductComponent,
+    DashboardComponent,
+    MyCartComponent,
    
   ],
   imports: [

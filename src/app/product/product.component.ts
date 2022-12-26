@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import {DataSource} from '@angular/cdk/collections';
 import {Observable, ReplaySubject} from 'rxjs';
+import { MatPaginator } from '@angular/material/paginator';
 
 export interface PeriodicElement {
   name: string;
@@ -30,6 +31,12 @@ const ELEMENT_DATA: PeriodicElement[] = [
 export class ProductComponent {displayedColumns: string[] = ['position', 'name', 'quantity', 'price'];
 dataToDisplay = [...ELEMENT_DATA];
 
+@ViewChild(MatPaginator) paginator: MatPaginator | undefined;
+
+ngOnInit(){
+  this.dataSource.paginator=this.paginator;
+}
+
 dataSource = new ExampleDataSource(this.dataToDisplay);
 
 addData() {
@@ -46,6 +53,7 @@ removeData() {
 
 class ExampleDataSource extends DataSource<PeriodicElement> {
 private _dataStream = new ReplaySubject<PeriodicElement[]>();
+  paginator: MatPaginator | undefined;
 
 constructor(initialData: PeriodicElement[]) {
   super();
