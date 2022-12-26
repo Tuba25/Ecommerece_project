@@ -7,6 +7,7 @@ import {MatTreeModule} from '@angular/material/tree';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatCardModule} from '@angular/material/card';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
 
 const MaterialComponents=[
   MatButtonModule,
@@ -16,7 +17,8 @@ const MaterialComponents=[
   MatTreeModule,
   MatPaginatorModule,
   MatCardModule,
-  MatFormFieldModule
+  MatFormFieldModule,
+  MatInputModule
 ];
 
 @NgModule({

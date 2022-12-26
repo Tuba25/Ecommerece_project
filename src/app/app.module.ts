@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { ProductComponent } from './product/product.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MyCartComponent } from './my-cart/my-cart.component';
+import { FormComponent } from './form/form.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { MyCartComponent } from './my-cart/my-cart.component';
     ProductComponent,
     DashboardComponent,
     MyCartComponent,
+    FormComponent,
    
   ],
   imports: [
