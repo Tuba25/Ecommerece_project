@@ -10,6 +10,8 @@ import { ProductComponent } from './product/product.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MyCartComponent } from './my-cart/my-cart.component';
 import { FormComponent } from './form/form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -26,7 +28,8 @@ import { FormComponent } from './form/form.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule, ReactiveFormsModule
   ],
   
   providers: [],
