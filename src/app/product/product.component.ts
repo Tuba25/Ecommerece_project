@@ -12,12 +12,12 @@ export interface PeriodicElement {
 }
 
 const ELEMENT_DATA: PeriodicElement[] = [
-  {position: 1, name: 'Hydrogen', quantity: 1.0079, price: 'H'},
-  {position: 2, name: 'Helium', quantity: 4.0026, price: 'He'},
-  {position: 3, name: 'Lithium', quantity: 6.941, price: 'Li'},
-  {position: 4, name: 'Beryllium', quantity: 9.0122, price: 'Be'},
-  {position: 5, name: 'Boron', quantity: 10.811, price: 'B'},
-  {position: 6, name: 'Carbon', quantity: 12.0107, price: 'C'},
+  {position: 1, name: '7up', quantity: 500, price: '200'},
+  {position: 2, name: 'Cocacola', quantity: 2, price: '300'},
+  {position: 3, name: 'Egg', quantity: 12, price: '200'},
+  {position: 4, name: 'Biscuit', quantity: 9, price: '200'},
+  {position: 5, name: 'Basket', quantity: 10, price: '500'},
+  {position: 6, name: 'Carrot', quantity: 12, price: '200'},
   {position: 7, name: 'Nitrogen', quantity: 14.0067, price: 'N'},
   {position: 8, name: 'Oxygen', quantity: 15.9994, price: 'O'},
   {position: 9, name: 'Fluorine', quantity: 18.9984, price: 'F'},

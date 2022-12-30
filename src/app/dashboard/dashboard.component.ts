@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
-  longText = `The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog
-  from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
-  originally bred for hunting.`;
+  longText = `Item code: 3000000095Brand: 7up Net weight: 500mlProduct type: Soft Drinks, Return/cancellation: No change will be applicable which are alread.`;
+longText2 ='Note: Electronic products sold in US store operate on (110-120) volts, a step-down power converter is required for the smooth device function. It is mandatory to know the wattage of the device in order to choose the appropriate power converter. Recommended power converters Buy Now.';
 }
